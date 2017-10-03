@@ -5,9 +5,11 @@ class Search extends Component {
         super(props);
         this.setInput = this.setInput.bind(this);
     }
+
     setInput(event) {
         this.props.onChangeHandle(this.InputVal.value);
     }
+
     render(){
         return(
             <div>
